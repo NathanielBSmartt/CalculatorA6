@@ -1,24 +1,34 @@
 package a6.calculator.controller;
 
+import static java.lang.Character.isDigit;
+
 import android.app.Activity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import a6.calculator.R;
+import a6.calculator.model.CalculatorModel;
 
 public class CalculatorButtonController implements View.OnClickListener{
 
     Button button;
+    CalculatorModel model;
 
-    public CalculatorButtonController(Button button) {
+    public CalculatorButtonController(Button button, CalculatorModel model) {
 
         this.button = button;
 
     }
 
     public void onClick(View v) {
-        Log.d("YOMAMA", "onClick: CLICKED");
+
+//        if(isDigit(button.getText().charAt(0)) && model.inputs != null && button.getText() != null) {
+//            model.inputs.push(button.getText().charAt(0));
+//        }
+//
+//
+//        Log.d("YOMAMA", "onClick: PUSHING " + button.getText() + " TO STACK");
     }
 
 

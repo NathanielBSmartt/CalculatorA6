@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         CalculatorModel model = new CalculatorModel();
-        CalculatorView view = new CalculatorView(this);
+        CalculatorView view = new CalculatorView(this, model);
 
 
     }
