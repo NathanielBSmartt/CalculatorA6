@@ -2,13 +2,8 @@ package a6.calculator.controller;
 
 import static java.lang.Character.isDigit;
 
-import android.app.Activity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
-import a6.calculator.R;
-import a6.calculator.model.CalculatorModel;
 
 public class CalculatorButtonController implements View.OnClickListener{
 

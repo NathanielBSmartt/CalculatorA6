@@ -5,7 +5,6 @@ import android.widget.Button;
 
 import a6.calculator.R;
 import a6.calculator.controller.CalculatorButtonController;
-import a6.calculator.model.CalculatorModel;
 
 public class CalculatorView {
 
